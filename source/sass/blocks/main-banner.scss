@@ -1,0 +1,26 @@
+.main-banner {
+  /*background-color: $bg-color;*/
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-image: url('../../img/index-background-mobile@1x.jpg');
+}
+.main-banner__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-banner__slogan {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main-banner__image {
+  display: block;
+  margin: 0 auto;
+}
