@@ -13,10 +13,10 @@
           <a class="logo main-nav__logo">
             <img class="logo__image" src="../img/logo-mobile.svg" width="190" height="38" alt="Логотип сайта Кэт энерджи">
           </a>
-          <button class="main-nav__toggle main-nav__toggle--opened" type="button">
+          <button class="main-nav__toggle" type="button">
             <span class="visually-hidden">Меню</span>
           </button>
-          <ul class="main-nav__list main-nav__list--opened">
+          <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--current">
               <a class="main-nav__link">Главная</a>
             </li>
@@ -75,27 +75,35 @@
           </ul>
         </section>
         <section class="example">
-          <h2 class="heading">Живой пример</h2>
+          <h2 class="heading example__title">Живой пример</h2>
           <p class="example__text">
             Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
           </p>
           <table class="example__table">
-            <tr>
-              <td class="example__cell">
-                5 кг <span class="example__cell-title">снижение веса</span>
-              </td>
-              <td class="example__cell">
-                60 дней <span class="example__cell-title">затрачено времени</span>
-              </td>
-            </tr>
+            <thead>
+              <tr class="example__table-row">
+                <th class="example__cell-title">
+                  <span class="example__cell-inner">снижение веса</span>
+                </th>
+                <th class="example__cell-title">
+                  <span class="example__cell-inner">затрачено времени</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="example__table-row">
+                <td class="example__cell">5 кг</td>
+                <td class="example__cell">60 дней</td>
+              </tr>
+            </tbody>
           </table>
           <p class="example__cost">Затраты на питание: 15 000 руб.</p>
           <div class="example__slider">
-            <div class="example__image-wrapper example__image-wrapper--before example__image--active">
-              <img class="example__image" src="http://placehold.it/150x100" width="150" height="100" alt="Фото Бориса до похудения">
+            <div class="example__image-wrapper example__image-wrapper--active">
+              <img class="example__image" src="img/before-mobile@1x.png" width="320" height="240" alt="Фото Бориса до похудения">
             </div>
-            <div class="example__image-wrapper example__image-wrapper--after">
-              <img class="example__image" src="http://placehold.it/150x100" width="150" height="100" alt="Фото Бориса после похудения">
+            <div class="example__image-wrapper">
+              <img class="example__image" src="img/after-mobile@1x.png" width="320" height="240" alt="Фото Бориса после похудения">
             </div>
             <p class="example__toggle-wrapper">
               Было
