@@ -10,7 +10,7 @@
 }
 
 .example__text {
-  font-family: $arial;
+  font-family: $Arial;
 }
 
 .example__table {
@@ -25,7 +25,6 @@
 
 .example__cell {
   @include text-size(24px);
-
   text-align: center;
   border: 1px solid #cdcdcd;
   border-radius: 3px;
@@ -35,14 +34,11 @@
 }
 
 .example__cell-title {
-  font-family: $arial;
-
+  font-family: $Arial;
   @include text-size(12px, 1, #444444);
-
   font-weight: 400;
   width: 50%;
   max-width: 125px;
-
   transform: translateY(70px);
 }
 
@@ -57,7 +53,6 @@
 
 .example__cost {
   @include text-size(14px, 20px);
-
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -78,7 +73,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   @include text-size(16px, 20px);
   text-transform: uppercase;
 }
@@ -90,9 +84,8 @@
   background-color: #ffffff;
   border: 1px solid #cdcdcd;
   border-radius: 6px;
-
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 6px;
     top: 50%;
@@ -102,7 +95,6 @@
     border-radius: 3px;
     background-color: $bg-color;
   }
-
   &--after {
     &::before {
       left: auto;

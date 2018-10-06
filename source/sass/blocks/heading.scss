@@ -5,5 +5,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  @include text-size(60px, 60px);
+  .heading {
+    @include text-size(60px, 60px);
+  }
 }

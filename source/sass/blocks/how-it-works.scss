@@ -1,7 +1,3 @@
-.how-it-works {
-
-}
-
 .how-it-works__title {
   margin-bottom: 29px;
 }
@@ -12,12 +8,11 @@
 
 .how-it-works__item {
   position: relative;
-  font-family: $arial;
+  font-family: $Arial;
   margin-bottom: 25px;
   padding-left: 80px;
-
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 50%;
@@ -26,9 +21,8 @@
     height: 60px;
     background-color: $bg-color;
   }
-
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     left: 5px;
     top: 50%;
@@ -39,28 +33,24 @@
     background-position: 50% 50%;
     z-index: 1;
   }
-
   &--nutrients {
     &::after {
-      background-image: url('../../img/advantage-leaf@1x.png');
+      background-image: url("../../img/advantage-leaf@1x.png");
     }
   }
-
   &--form {
     &::after {
-      background-image: url('../../img/advantage-powder@1x.png');
+      background-image: url("../../img/advantage-powder@1x.png");
     }
   }
-
   &--food-intake {
     &::after {
-      background-image: url('../../img/advantage-dining@1x.png');
+      background-image: url("../../img/advantage-dining@1x.png");
     }
   }
-
   &--time {
     &::after {
-      background-image: url('../../img/advantage-clock@1x.png');
+      background-image: url("../../img/advantage-clock@1x.png");
     }
   }
 }

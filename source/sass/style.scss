@@ -1,16 +1,14 @@
 @font-face {
-    font-family: 'Oswald';
-    font-weight: 400;
-    font-style: normal;
-
-    src: local('Oswald Regular'), local('Oswald-Regular'), url('../fonts/oswaldregular.woff2') format('woff2'), url('../fonts/oswaldregular.woff') format('woff');
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Oswald Regular"), local("Oswald-Regular"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
 }
 @font-face {
-    font-family: 'Oswald';
-    font-weight: 500;
-    font-style: normal;
-
-    src: local('Oswald Medium'), local('Oswald-Medium'), url('../fonts/oswaldmedium.woff2') format('woff2'), url('../fonts/oswaldmedium.woff') format('woff');
+  font-family: "Oswald";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Oswald Medium"), local("Oswald-Medium"), url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
 }
 
 html {
@@ -30,51 +28,48 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
-
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-
-    border: 0;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
-@import 'variables.scss';
-@import 'mixin.scss';
-@import 'blocks/container.scss';
-@import 'blocks/heading.scss';
-@import 'blocks/button.scss';
-@import 'blocks/main-header.scss';
-@import 'blocks/main-nav.scss';
-@import 'blocks/offer.scss';
-@import 'blocks/catalog-sections.scss';
-@import 'blocks/how-it-works.scss';
-@import 'blocks/example.scss';
+@import "variables.scss";
+@import "mixin.scss";
+@import "blocks/container.scss";
+@import "blocks/heading.scss";
+@import "blocks/button.scss";
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/offer.scss";
+@import "blocks/catalog-sections.scss";
+@import "blocks/how-it-works.scss";
+@import "blocks/example.scss";
 
-@import 'blocks/products-list.scss';
-@import 'blocks/product-details.scss';
-@import 'blocks/legend.scss';
-@import 'blocks/additional-products.scss';
-@import 'blocks/additional-products-list.scss';
-@import 'blocks/present.scss';
+@import "blocks/products-list.scss";
+@import "blocks/product-details.scss";
+@import "blocks/legend.scss";
+@import "blocks/additional-products.scss";
+@import "blocks/additional-products-list.scss";
+@import "blocks/present.scss";
 
-@import 'blocks/form-description.scss';
-@import 'blocks/program-form.scss';
+@import "blocks/form-description.scss";
+@import "blocks/program-form.scss";
 
-@import 'blocks/social';
-@import 'blocks/main-footer.scss';
-@import 'blocks/map.scss';
-@import 'blocks/inner-page.scss';
+@import "blocks/social";
+@import "blocks/main-footer.scss";
+@import "blocks/map.scss";
+@import "blocks/inner-page.scss";

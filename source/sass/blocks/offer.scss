@@ -12,7 +12,6 @@
 
 .offer__slogan {
   @include text-size(14px, 1, #ffffff);
-
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -23,14 +22,6 @@
   margin: 0 auto;
 }
 
-.offer__link {
-
-}
-
-@media screen and (min-width: 320px) {
-
-}
-
 @media screen and (min-width: 1300px) {
   .offer {
     position: relative;
@@ -38,7 +29,6 @@
     padding-top: 96px;
     padding-bottom: 231px;
     padding-left: 80px;
-
     /*outline: 1px solid orange;*/
   }
 
