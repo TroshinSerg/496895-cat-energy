@@ -12,6 +12,7 @@
 
 .social__item {
   margin-right: 35px;
+
   &:last-child {
     margin-right: 0;
   }
@@ -23,12 +24,15 @@
   height: 22px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+
   &--vk {
     background-image: url("../../img/icon-vk-mobile.svg");
   }
+
   &--inst {
     background-image: url("../../img/icon-insta-mobile.svg");
   }
+
   &--fb {
     background-image: url("../../img/icon-fb-mobile.svg");
   }

@@ -24,9 +24,11 @@
   display: flex;
   align-items: center;
   width: 100%;
+
   @include text-size(16px, 18px, #222222);
   text-transform: uppercase;
   margin-bottom: 15px;
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -37,6 +39,7 @@
   position: relative;
   padding-left: 45px;
   margin-bottom: 23px;
+
   &::before {
     content: "";
     position: absolute;
@@ -91,6 +94,7 @@
 .program-form__input,
 .program-form__textarea {
   border: 1px solid rgba(#cdcdcd, 0.5%);
+
   &::placeholder {
     color: #222222;
     opacity: 1;
@@ -102,6 +106,7 @@
 .program-form__input--email,
 .program-form__input--tel {
   width: 100%;
+
   @include text-size(16px, 16px, #222222);
   text-transform: uppercase;
   padding: 8px 35px 8px 15px;
@@ -112,6 +117,7 @@
 .program-form__textarea {
   width: 100%;
   min-width: 280px;
+
   @include text-size(16px, 18px, #222222);
   text-transform: uppercase;
   padding: 15px;
@@ -125,6 +131,7 @@
 
 .program-form__footnote {
   font-family: $Arial;
+
   @include text-size(14px, 16px, #444444)
   text-align: center;
   margin: 0;

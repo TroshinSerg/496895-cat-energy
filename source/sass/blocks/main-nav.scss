@@ -27,9 +27,11 @@
 
 .main-nav__item {
   border-bottom: 1px solid #e6e6e6;
+
   &:first-child {
     border-top: 1px solid #e6e6e6;
   }
+
   &:last-child {
     border-bottom: none;
   }
@@ -39,6 +41,7 @@
   font-weight: 500;
   display: block;
   text-align: center;
+
   @include text-size(20px);
   padding: 24px 5px;
   text-transform: uppercase;
@@ -77,9 +80,11 @@
   .main-nav__item {
     border-bottom: none;
     margin-right: 35px;
+
     &:first-child {
       border-top: none;
     }
+
     &:last-child {
       margin-right: 0;
     }

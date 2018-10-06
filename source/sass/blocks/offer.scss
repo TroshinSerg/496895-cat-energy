@@ -7,6 +7,7 @@
 .offer__title {
   text-align: center;
   margin-bottom: 20px;
+
   @include text-size(36px, 1, #ffffff);
 }
 
@@ -34,6 +35,7 @@
 
   .offer__title {
     margin-bottom: 40px;
+
     @include text-size(60px, 60px);
     max-width: 420px;
     text-align: initial;

@@ -4,6 +4,7 @@
   font-style: normal;
   src: local("Oswald Regular"), local("Oswald-Regular"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
 }
+
 @font-face {
   font-family: "Oswald";
   font-weight: 500;
@@ -15,12 +16,14 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: Oswald, Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -58,17 +61,14 @@ img {
 @import "blocks/catalog-sections.scss";
 @import "blocks/how-it-works.scss";
 @import "blocks/example.scss";
-
 @import "blocks/products-list.scss";
 @import "blocks/product-details.scss";
 @import "blocks/legend.scss";
 @import "blocks/additional-products.scss";
 @import "blocks/additional-products-list.scss";
 @import "blocks/present.scss";
-
 @import "blocks/form-description.scss";
 @import "blocks/program-form.scss";
-
 @import "blocks/social";
 @import "blocks/main-footer.scss";
 @import "blocks/map.scss";

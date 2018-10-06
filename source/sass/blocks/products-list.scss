@@ -21,6 +21,7 @@
 .products-list__item-title {
   max-width: 75px;
   margin: 0 0 10px;
+
   @include text-size(16px, 20px);
   font-weight: 400;
   text-transform: uppercase;
@@ -37,11 +38,14 @@
 
 .products-list__show-more-text {
   font-family: $Arial;
+
   @include text-size(12px, 16px, #444444);
   text-align: center;
   margin: 0 0 20px;
+
   &--upper {
-    font-family: Oswald, $Arial;
+    font-family: "Oswald", $Arial;
+
     @include text-size(16px, 20px);
     text-transform: uppercase;
     margin: 0 0 7px;
