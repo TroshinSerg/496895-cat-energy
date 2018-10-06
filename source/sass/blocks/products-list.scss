@@ -44,7 +44,7 @@
   margin: 0 0 20px;
 
   &--upper {
-    font-family: "Oswald", $Arial;
+    font-family: "Oswald", "Arial", sans-serif;
 
     @include text-size(16px, 20px);
     text-transform: uppercase;

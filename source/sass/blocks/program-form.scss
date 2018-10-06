@@ -132,7 +132,7 @@
 .program-form__footnote {
   font-family: $Arial;
 
-  @include text-size(14px, 16px, #444444)
+  @include text-size(14px, 16px, #444444);
   text-align: center;
   margin: 0;
 }
