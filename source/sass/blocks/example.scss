@@ -10,20 +10,22 @@
 }
 
 .example__text {
-  font-family: Arial, sans-serif;
+  font-family: $arial;
 }
+
 .example__table {
   width: 100%;
   margin-bottom: 40px;
 }
+
 .example__table-row {
   display: flex;
   justify-content: space-between;
 }
+
 .example__cell {
-  font-size: 24px;
-  line-height: 24px;
-  color: #111111;
+  @include text-size(24px);
+
   text-align: center;
   border: 1px solid #cdcdcd;
   border-radius: 3px;
@@ -31,17 +33,19 @@
   width: 50%;
   max-width: 125px;
 }
+
 .example__cell-title {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  line-height: 12px;
+  font-family: $arial;
+
+  @include text-size(12px, 1, #444444);
+
   font-weight: 400;
-  color: #444444;
   width: 50%;
   max-width: 125px;
 
   transform: translateY(70px);
 }
+
 .example__cell-inner {
   display: block;
   max-width: 87px;
@@ -50,29 +54,32 @@
   padding-right: 16px;
   background-color: #f2f2f2;
 }
+
 .example__cost {
-  line-height: 20px;
-  color: #111111;
+  @include text-size(14px, 20px);
+
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+
 .example__image-wrapper {
   display: none;
   margin-bottom: 40px;
 }
+
 .example__image-wrapper--active {
   display: block;
 }
+
 .example__toggle-wrapper {
   max-width: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
-  line-height: 20px;
-  color: #111111;
+
+  @include text-size(16px, 20px);
   text-transform: uppercase;
 }
 
@@ -95,6 +102,7 @@
     border-radius: 3px;
     background-color: $bg-color;
   }
+
   &--after {
     &::before {
       left: auto;

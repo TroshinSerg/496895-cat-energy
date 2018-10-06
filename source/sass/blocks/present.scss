@@ -1,0 +1,28 @@
+.present {
+  height: 289px;
+  padding-top: 65px;
+  padding-bottom: 43px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/gift-photo-mobile@1x.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.present__icon {
+  width: 56px;
+  height: 60px;
+}
+
+.present__icon-path {
+  fill: #ffffff;
+}
+
+.present__text {
+  font-family: $arial;
+  @include text-size(16px, 20px, #ffffff);
+  text-align: center;
+  max-width: 160px;
+  margin: 0;
+}

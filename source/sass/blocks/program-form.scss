@@ -1,0 +1,137 @@
+.program-form {
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.program-form__fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.program-form__fieldset--bordered {
+  border: 1px solid #ededed;
+  padding: 28px 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.program-form__legend {
+  margin-bottom: 30px;
+}
+
+.program-form__label {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  @include text-size(16px, 18px, #222222);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.program-form__label--radio,
+.program-form__label--checkbox {
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 23px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(#cdcdcd, 0.5%);
+    border-radius: 50%;
+  }
+}
+
+.program-form__label--checkbox {
+  &::before {
+    border-radius: 0;
+  }
+}
+
+.program-form__radio:checked + .program-form__label--radio {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: $bg-color;
+    border-radius: 50%;
+  }
+}
+
+.program-form__checkbox:checked + .program-form__label--checkbox {
+  &::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/icon-tick.svg);
+  }
+}
+
+.program-form__nowrap {
+  white-space: nowrap;
+}
+
+.program-form__input,
+.program-form__textarea {
+  border: 1px solid rgba(#cdcdcd, 0.5%);
+  &::placeholder {
+    color: #222222;
+    opacity: 1;
+  }
+}
+
+.program-form__input--text,
+.program-form__input--number,
+.program-form__input--email,
+.program-form__input--tel {
+  width: 100%;
+  @include text-size(16px, 16px, #222222);
+  text-transform: uppercase;
+  padding: 8px 35px 8px 15px;
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.program-form__textarea {
+  width: 100%;
+  min-width: 280px;
+  @include text-size(16px, 18px, #222222);
+  text-transform: uppercase;
+  padding: 15px;
+  min-height: 150px;
+}
+
+.program-form__footer {
+
+}
+
+.program-form__button {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.program-form__footnote {
+  font-family: $arial;
+  @include text-size(14px, 16px, #444444)
+  text-align: center;
+  margin: 0;
+}

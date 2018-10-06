@@ -1,0 +1,23 @@
+.additional-products-list {
+  @include list-reset();
+}
+
+.additional-products-list__item {
+  padding: 14px 0 17px;
+  border-top: 1px solid #cdcdcd;
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
+}
+
+.additional-products-list__item-title {
+  @include text-size(16px, 16px, #222222);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.additional-products-list__product-details {
+  @include text-size(14px, 14px, #444444);
+  margin-bottom: 13px;
+}
