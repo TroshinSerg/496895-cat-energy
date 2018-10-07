@@ -1,12 +1,11 @@
 .example {
   background-color: #f2f2f2;
-  margin-left: -20px;
-  margin-right: -20px;
-  padding: 15px 20px 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
-.examle__title {
-  margin-bottom: 22px;
+.example__title {
+  margin: 0 0 22px;
 }
 
 .example__text {
@@ -98,11 +97,11 @@
     border-radius: 3px;
     background-color: $bg-color;
   }
+}
 
-  &--after {
-    &::before {
+.example__toggle--after {
+  &::before {
       left: auto;
       right: 6px;
     }
-  }
 }
