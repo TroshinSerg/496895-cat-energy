@@ -1,57 +1,4 @@
-@font-face {
-  font-family: "Oswald";
-  font-weight: 400;
-  font-style: normal;
-  src: local("Oswald Regular"), local("Oswald-Regular"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Oswald";
-  font-weight: 500;
-  font-style: normal;
-  src: local("Oswald Medium"), local("Oswald-Medium"), url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  color: #444444;
-  min-width: 320px;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
-
-@import "variables.scss";
-@import "mixin.scss";
+@import "global.scss";
 @import "blocks/body.scss";
 @import "blocks/heading.scss";
 @import "blocks/button.scss";
@@ -70,7 +17,7 @@ img {
 @import "blocks/present.scss";
 @import "blocks/form-description.scss";
 @import "blocks/program-form.scss";
-@import "blocks/social";
+@import "blocks/social.scss";
 @import "blocks/main-footer.scss";
 @import "blocks/map.scss";
 @import "blocks/inner-page.scss";
