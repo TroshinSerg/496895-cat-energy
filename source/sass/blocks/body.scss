@@ -1,0 +1,45 @@
+.body__centering {
+  padding: 0 20px;
+  /*outline: 1px solid red;*/
+}
+
+.body__additional-products {
+  margin-bottom: 40px;
+}
+
+.body__add-prod-list {
+  @include list-reset();
+}
+
+.body__catalog-sections {
+  margin-bottom: 15px;
+}
+
+.body__example {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body__form-description {
+  margin: 0 0 37px;
+}
+
+.body__program-form {
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .body__centering {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .body__centering {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+}

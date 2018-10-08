@@ -1,0 +1,66 @@
+.how-it-works {
+  padding-bottom: 20px;
+}
+
+.how-it-works__title {
+  margin: 0 0 29px;
+}
+
+.how-it-works__list {
+  @include list-reset();
+}
+
+.how-it-works__item {
+  position: relative;
+  font-family: $Arial;
+  margin-bottom: 25px;
+  padding-left: 80px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: $bg-color;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 1;
+  }
+}
+
+.how-it-works__item--nutrients {
+  &::after {
+    background-image: url("../../img/advantage-leaf@1x.png");
+  }
+}
+
+.how-it-works__item--form {
+  &::after {
+    background-image: url("../../img/advantage-powder@1x.png");
+  }
+}
+
+.how-it-works__item--food-intake {
+  &::after {
+    background-image: url("../../img/advantage-dining@1x.png");
+  }
+}
+
+.how-it-works__item--time {
+  &::after {
+    background-image: url("../../img/advantage-clock@1x.png");
+  }
+}

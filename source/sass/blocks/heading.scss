@@ -1,0 +1,11 @@
+.heading {
+  font-weight: 400;
+
+  @include text-size(36px, 60px);
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    @include text-size(60px, 60px);
+  }
+}

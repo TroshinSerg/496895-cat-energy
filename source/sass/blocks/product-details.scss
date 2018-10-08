@@ -1,0 +1,13 @@
+.product-details {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: $Arial;
+
+  @include text-size(12px, 16px, #444444);
+}
+
+.product-details__cell {
+  &--right {
+    text-align: right;
+  }
+}
